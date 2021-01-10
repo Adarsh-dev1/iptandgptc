@@ -1,0 +1,15 @@
+
+
+/* .bogitem {
+    height: 250px;
+    width: 250rem;
+  } */
+  .bogitem{
+    display: flex;
+    flex-direction: column;
+    transition: 3.0s all ease-in-out;
+  }
+  
+  .bogitem :hover {
+    box-shadow: 0 20px 20px rgba(112, 86, 86, 0.6);
+  }
